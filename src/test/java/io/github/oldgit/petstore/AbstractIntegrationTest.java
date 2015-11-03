@@ -20,7 +20,7 @@ import java.util.Map;
 @RunWith(SpringJUnit4ClassRunner.class)
 // Your spring configuration class containing the @EnableAutoConfiguration
 // annotation
-@SpringApplicationConfiguration(classes = PetstoreSpringBootApplication.class)
+@SpringApplicationConfiguration(classes = Application.class)
 // Makes sure the application starts at a random free port, caches it throughout
 // all unit tests, and closes it again at the end.
 @WebIntegrationTest(randomPort = true)
