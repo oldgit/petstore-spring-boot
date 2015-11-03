@@ -61,7 +61,7 @@ class BowlingGameScalaFeatureSpec extends FeatureSpec with GivenWhenThen with Be
       assert(game.score === 300)
     }
 
-    scenario("moar tests") {
+    scenario("more pending tests") {
       pending
     }
   }
